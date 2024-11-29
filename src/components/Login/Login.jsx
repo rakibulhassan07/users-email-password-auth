@@ -22,7 +22,7 @@ const Login = () => {
     setSucess("");
 
     if (password.length < 6) {
-      setLoginError("Enter longer then 6 characters");
+      setLoginError("Enter longer then 7 characters");
       return;
     }
 
